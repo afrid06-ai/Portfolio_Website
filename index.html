@@ -12,10 +12,12 @@
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
   <header class="nav">
     <a class="brand" href="#top" aria-label="Afrid, home"><span>AF</span> / 26</a>
     <nav aria-label="Primary navigation">
-      <a href="#work">Work</a><a href="#expertise">Expertise</a><a href="#about">About</a>
+      <a href="#work">Work</a><a href="#github">GitHub</a><a href="#linkedin">LinkedIn</a><a href="#expertise">Expertise</a><a href="#about">About</a>
     </nav>
     <a class="availability" href="mailto:afrid@coreit.co.in"><i></i> Available to connect</a>
   </header>
@@ -57,8 +59,51 @@
       </article>
     </section>
 
+    <section class="section github-lab" id="github">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / OPEN SOURCE LAB</p>
+        <h2>Ideas that ship<br><em>in public.</em></h2>
+      </div>
+      <div class="github-intro reveal">
+        <div><span class="github-mark" aria-hidden="true">&lt;/&gt;</span><p>Explore the experiments, AI tools, and full-stack products I am actively building on GitHub.</p></div>
+        <a class="profile-link" href="https://github.com/afrid06-ai?tab=repositories" target="_blank" rel="noopener noreferrer">View all 11 repositories <span>↗</span></a>
+      </div>
+      <div class="repo-grid">
+        <a class="repo-card reveal" href="https://github.com/afrid06-ai/multi-agent-dev-crew" target="_blank" rel="noopener noreferrer"><span class="repo-index">01 / FEATURED</span><span class="repo-arrow">↗</span><h3>Multi-Agent Dev Crew</h3><p>A Python experiment in coordinating specialized AI agents as a collaborative software team.</p><footer><span><i class="lang python"></i>Python</span><span>★ 1</span></footer></a>
+        <a class="repo-card reveal" href="https://github.com/afrid06-ai/Mini_AI_Workflow_Builder" target="_blank" rel="noopener noreferrer"><span class="repo-index">02 / AI TOOLING</span><span class="repo-arrow">↗</span><h3>Mini AI Workflow Builder</h3><p>A hands-on Python workspace for composing compact, reusable AI workflows.</p><footer><span><i class="lang python"></i>Python</span><span>Repository</span></footer></a>
+        <a class="repo-card reveal" href="https://github.com/afrid06-ai/study_assistant_app" target="_blank" rel="noopener noreferrer"><span class="repo-index">03 / PRODUCT</span><span class="repo-arrow">↗</span><h3>Study Assistant App</h3><p>An AI-powered learning app for notes, flashcards, quizzes, and personalized study plans.</p><footer><span><i class="lang mobile"></i>Mobile + AI</span><span>Firebase</span></footer></a>
+        <a class="repo-card reveal" href="https://github.com/afrid06-ai/news-aggregator_project-" target="_blank" rel="noopener noreferrer"><span class="repo-index">04 / FULL STACK</span><span class="repo-arrow">↗</span><h3>News Aggregator</h3><p>A Vue and Node.js product for discovering, saving, and organizing news from around the world.</p><footer><span><i class="lang web"></i>Vue + Node</span><span>Full stack</span></footer></a>
+      </div>
+    </section>
+
+    <section class="section linkedin-feed" id="linkedin">
+      <div class="linkedin-heading reveal">
+        <div><p class="eyebrow">03 / LINKEDIN NOTEBOOK</p><h2>What I’m<br><em>thinking about.</em></h2></div>
+        <div class="linkedin-profile">
+          <span class="linkedin-avatar">AS</span>
+          <div><strong>Afrid Shaik</strong><small>AI/ML Engineer · Building in public</small></div>
+          <span class="linkedin-badge" aria-label="LinkedIn">in</span>
+        </div>
+      </div>
+      <div class="linkedin-stage reveal">
+        <div class="post-manifesto">
+          <span class="post-label">FIELD NOTES / LINKEDIN</span>
+          <blockquote>“The best AI systems don’t just generate. They retrieve, reason, evaluate—and earn trust.”</blockquote>
+          <p>Follow my ongoing notes on agentic AI, RAG, production engineering, and the lessons behind what I build.</p>
+          <a href="https://www.linkedin.com/in/afridshaik/recent-activity/all/" target="_blank" rel="noopener noreferrer">Explore all posts on LinkedIn <span>↗</span></a>
+        </div>
+        <div class="post-topics" aria-label="Topics Afrid writes about">
+          <div><span>01</span><strong>Agentic AI</strong><small>Orchestration · memory · evaluation</small></div>
+          <div><span>02</span><strong>RAG in production</strong><small>Retrieval · grounding · trust</small></div>
+          <div><span>03</span><strong>Building in public</strong><small>Projects · experiments · lessons</small></div>
+          <a href="https://www.linkedin.com/in/afridshaik/" target="_blank" rel="noopener noreferrer"><span>CONNECT</span><strong>Join the conversation</strong><b>↗</b></a>
+        </div>
+      </div>
+      <p class="feed-note reveal"><span>LIVE PROFILE</span> LinkedIn controls the live post feed, so this portfolio links directly to Afrid’s latest activity—no copied or outdated posts.</p>
+    </section>
+
     <section class="section expertise" id="expertise">
-      <div class="section-heading reveal"><p class="eyebrow">02 / CAPABILITY MAP</p><h2>Deep expertise.<br><em>Connected thinking.</em></h2></div>
+      <div class="section-heading reveal"><p class="eyebrow">04 / CAPABILITY MAP</p><h2>Deep expertise.<br><em>Connected thinking.</em></h2></div>
       <div class="skill-map reveal" id="skillMap">
         <div class="skill-core"><span>AI</span><small>ENGINEERING</small></div>
         <button class="skill-node n1" data-detail="LangGraph · LangChain · AutoGen · LlamaIndex">Agentic systems</button>
@@ -73,7 +118,7 @@
     </section>
 
     <section class="section about" id="about">
-      <div class="section-heading reveal"><p class="eyebrow">03 / EXPERIENCE</p><h2>From models<br><em>to momentum.</em></h2></div>
+      <div class="section-heading reveal"><p class="eyebrow">05 / EXPERIENCE</p><h2>From models<br><em>to momentum.</em></h2></div>
       <div class="timeline">
         <article class="reveal"><time>2025 — NOW</time><div><h3>AI/ML Engineer</h3><p>Scale AI · USA</p><span>Agentic AI · RAG · LLMOps · Inference optimization</span></div></article>
         <article class="reveal"><time>2021 — 2024</time><div><h3>Machine Learning Engineer</h3><p>Deloitte · India</p><span>Enterprise ML · Data pipelines · MLOps · NLP</span></div></article>
@@ -84,9 +129,43 @@
     <section class="contact section reveal">
       <p class="eyebrow">LET'S BUILD WHAT'S NEXT</p><h2>Have an AI challenge<br>worth <em>solving?</em></h2>
       <a href="mailto:afrid@coreit.co.in">afrid@coreit.co.in <span>↗</span></a>
+      <div class="social-links" aria-label="Afrid's professional profiles">
+        <a href="https://www.linkedin.com/in/afridshaik/" target="_blank" rel="noopener noreferrer"><small>PROFESSIONAL NETWORK</small><strong>LinkedIn</strong><span>↗</span></a>
+        <a href="https://github.com/afrid06-ai?tab=repositories" target="_blank" rel="noopener noreferrer"><small>CODE &amp; EXPERIMENTS</small><strong>GitHub</strong><span>↗</span></a>
+      </div>
       <div class="footer"><span>© 2026 AFRID</span><a href="tel:+12036063012">+1 (203) 606-3012</a><a href="#top">BACK TO TOP ↑</a></div>
     </section>
   </main>
+
+  <aside class="portfolio-assistant" aria-label="Chat with Afrid's portfolio assistant">
+    <button class="assistant-launcher" id="assistantLauncher" type="button" aria-expanded="false" aria-controls="assistantPanel">
+      <span class="launcher-pulse" aria-hidden="true"></span>
+      <span class="launcher-label"><small>ASK AFRID.AI</small><strong>Let's talk</strong></span>
+      <span class="launcher-icon" aria-hidden="true">↗</span>
+    </button>
+
+    <section class="assistant-panel" id="assistantPanel" aria-hidden="true" aria-live="polite">
+      <header class="assistant-header">
+        <div class="assistant-identity"><span>AF</span><div><strong>Afrid.AI</strong><small><i></i> Portfolio copilot</small></div></div>
+        <button id="assistantClose" type="button" aria-label="Close chat">×</button>
+      </header>
+      <div class="assistant-status">AI-POWERED PORTFOLIO · RESPONDS INSTANTLY</div>
+      <div class="assistant-messages" id="assistantMessages" role="log" aria-label="Conversation"></div>
+      <div class="assistant-suggestions" id="assistantSuggestions" aria-label="Suggested questions">
+        <button type="button" data-question="What has Afrid built?">Selected work</button>
+        <button type="button" data-question="What is Afrid's AI stack?">AI stack</button>
+        <button type="button" data-question="Why should I hire Afrid?">Why Afrid?</button>
+        <button type="button" data-question="Where can I see Afrid's profiles?">Social profiles</button>
+        <button type="button" data-question="How can I contact Afrid?">Get in touch</button>
+      </div>
+      <form class="assistant-form" id="assistantForm">
+        <label class="sr-only" for="assistantInput">Ask about Afrid</label>
+        <input id="assistantInput" autocomplete="off" maxlength="180" placeholder="Ask me anything about Afrid…">
+        <button type="submit" aria-label="Send message">↑</button>
+      </form>
+      <p class="assistant-disclaimer">Curated from this portfolio—not a live human chat.</p>
+    </section>
+  </aside>
   <script src="script.js"></script>
 </body>
 </html>
